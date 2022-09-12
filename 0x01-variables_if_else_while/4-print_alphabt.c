@@ -12,7 +12,7 @@ int main(void)
 
 	for(leter = 'a'; leter <= 'z'; leter++)
 	{
-		if (leter = 'e' || leter = 'q')
+		if (leter == 'e' || leter == 'q')
 		{
 			continue;
 		}
