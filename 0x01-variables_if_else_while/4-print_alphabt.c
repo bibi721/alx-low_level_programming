@@ -10,9 +10,9 @@ int main(void)
 {
 	char leter;
 
-	for(leter = 'a'; leter <= 'z' leter++)
+	for(leter = 'a'; leter <= 'z'; leter++)
 	{
-		if (leter = e || leter = q)
+		if (leter = 'e' || leter = 'q')
 		{
 			continue;
 		}
