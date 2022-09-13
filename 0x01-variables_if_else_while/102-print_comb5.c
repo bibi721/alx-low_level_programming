@@ -15,7 +15,6 @@ int main(void)
 	{
 		for (one = zero + 1; one <= 99; one++)
 		{
-		
 			putchar((zero / 10) + '0');
 			putchar((zero % 10) + '0');
 			putchar(' ');
