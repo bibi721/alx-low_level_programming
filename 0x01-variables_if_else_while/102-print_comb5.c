@@ -14,8 +14,8 @@ int main(void)
 	for (zero = 0; zero <= 98; zero++)
 	{
 		for (one = zero + 1; one <= 99; one++)
-		
 		{
+		
 			putchar((zero / 10) + '0');
 			putchar((zero % 10) + '0');
 			putchar(' ');
