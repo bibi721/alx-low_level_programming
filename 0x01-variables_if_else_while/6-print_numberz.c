@@ -10,7 +10,7 @@ int main(void)
 {
 	int numz;
 
-	for(numz = 0; numz <= 9; numz++)
+	for (numz = 0; numz <= 9; numz++)
 	{
 		putchar((numz % 10) + '0');
 	}
