@@ -1,4 +1,5 @@
-#include <main.h>
+int_putchar(char);
+#include "main.h"
 
 /**
  * main - _putchar function 
