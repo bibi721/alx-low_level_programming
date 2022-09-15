@@ -7,5 +7,13 @@
  */
 int print_last_digit(int val)
 {
-	return (val % 10);
+	int digity = val % 10;
+
+	if (digity < 0)
+	{
+		digity *= -1;
+	}
+	_putchar(digity + '0');
+
+	return(digity);
 }
