@@ -8,7 +8,8 @@ void jack_bauer(void)
 {
 	int hr_tens, hr_one, minute_tens, minute_one, hr_max;
 
-	hr_max = '58';
+	hr_max = 58;
+
 	hr_tens = '0';
 
 	while(hr_tens < '3')
