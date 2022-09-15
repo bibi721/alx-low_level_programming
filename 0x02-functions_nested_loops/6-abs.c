@@ -1,13 +1,18 @@
 #include "main.h"
 /**
  * _abs - find absolute value for a number
- * @:  single letter input
+ * @num:  single valued number
  * Return: Always 0.
  *
  */
-int _abs(int)
+int _abs(int num)
 {
-	int abs(int x);
-
-	return (0);
+	if (num > 0)
+	{
+		return (num);
+	}
+	if (num < 0)
+	{
+		return (-num);
+	}
 }
