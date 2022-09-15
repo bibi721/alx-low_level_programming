@@ -15,5 +15,5 @@ int print_last_digit(int val)
 	}
 	_putchar(digity + '0');
 
-	return(digity);
+	return (digity);
 }
