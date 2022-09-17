@@ -1,5 +1,5 @@
 #include "main.h"
-
+i
 /**
  * _isupper - this code do if c upercase or not
  * @c: input value
@@ -12,4 +12,6 @@ int _isupper(int c)
 		return (1);
 	}
 	return (0);
+
 }
+
