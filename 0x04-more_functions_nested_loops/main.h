@@ -1,6 +1,4 @@
-#include MAIN_H_IMCLUDED
-
-#include <stdio.h>
+#include MAIN_H_IMCLUDE
 
 int _putchar(char c);
 
