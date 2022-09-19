@@ -9,7 +9,7 @@ void rev_string(char *s)
 {
 	char *val = s;
 
-	char v[200];
+	char v[700];
 
 	int d;
 
