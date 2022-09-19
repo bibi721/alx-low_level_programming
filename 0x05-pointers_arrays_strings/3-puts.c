@@ -6,8 +6,8 @@
  */
 void _puts(char *str)
 {
-	str[] = 'Hello';
+	str[20] = 'Hello';
 
-	_putchar("%s", str);
+	_putchar("%s", &str);
 
 }
