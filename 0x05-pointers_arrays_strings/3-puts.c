@@ -6,8 +6,5 @@
  */
 void _puts(char *str)
 {
-	str = 'Hello';
-
-	_putchar(str);
-
+	return (write(1, &c, 1));
 }
