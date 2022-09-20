@@ -8,14 +8,18 @@ include "main.h"
  */
 int main(void)
 {
-	srand((unsigned int)(time(NULL)));
-	int index = 0;
+	int value;
+	char randomizer;
 
-	 char characters[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789/,.-+=~`<>:";
+	srand(time(NULL));
 
-	 for(index = 0; index < 12; index++)
-	 {
-		 printf("%c", characters[rand() % (sizeof characters - 1)]);
+	while (value <= 3234)
+	{
+		randomizer = rand() % 128;
+		value += randomizer;
 
-	 }
-	 printf('\n');
+		putchar(randomizer);
+	}
+	putchar(4000 - value);
+	return (0);
+}
