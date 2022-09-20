@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * puts_half - half of an input string
- * @s: string pointer
- * Return: nothing 
+ * @str: string pointer
+ * Return: nothing
  */
 void puts_half(char *str)
 {
