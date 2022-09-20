@@ -2,8 +2,8 @@
 #include <stdio.h>
 /**
  * print_array - n elements of an array of integers
- * integer pointer
- * @n: type integer
+ *@a: integer pointer
+ * @n: int integer
  */
 
 void print_array(int *a, int n)
