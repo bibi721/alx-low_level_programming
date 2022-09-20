@@ -2,6 +2,7 @@
 /**
  * _atoi - converts string to int
  * @s: the sting
+ * Return: value
  */
 int _atoi(char *s)
 {
