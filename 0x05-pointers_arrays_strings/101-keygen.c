@@ -13,13 +13,13 @@ int main(void)
 
 	srand(time(NULL));
 
-	while (value <= 3234)
+	while (value <= 2645)
 	{
 		randomizer = rand() % 128;
 		value += randomizer;
 
 		putchar(randomizer);
 	}
-	putchar(4000 - value);
+	putchar(2772 - value);
 	return (0);
 }
