@@ -1,20 +1,19 @@
-include "main.h"
+#include "main.h"
 /**
  * _strcmp - Compare pointers
  * @s1: A pointer to be compared
  * @s2: a pointer to be compared
  * Return: dest
  */
-int _strcmp(char *s1, char *s)
+int _strcmp(char *s1, char *s2)
 {
-	char *n = s1;
-	char *e = s2;
+	char *str_one = s1;
+	char *str_two = s2;
 
-	while (*n != '\0' && *e != '\0' && *n == *e)
+	while (*str_one != '\0' && *str_two != '\0' && *str_one == *str_two)
 	{
-		n++;
-		e++;
+		str_one++;
+		str_two++;
 	}
-	return (*n - *e);
-
+	return (*str_one - *str_two);
 }
