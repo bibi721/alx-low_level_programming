@@ -9,15 +9,12 @@ int _strcmp(char *s1, char *s2)
 {
 	char *k1 = s1;
 	char *k2 = s2;
-	char *dest;
 
 	while (*k1 != '\0' && *k2 != '\0'' && *k1 == *k2)
 	{
 		k1++;
 		k2++;
 	}
-
-	*dest = *k1 - *k2;
-
-	return (*dest);
+	
+	return (*k1 - *k2);
 }
