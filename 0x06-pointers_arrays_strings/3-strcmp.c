@@ -5,29 +5,16 @@ include "main.h"
  * @s2: a pointer to be compared
  * Return: dest
  */
-int _strcmp(char *s1, char *s2)
+int _strcmp(char *s1, char *s)
 {
-	int x;
+	char *n = s1;
+	char *e = s2;
 
-	x = 0;
-
-	while (*s1 != '\0' && *s2 != '\0')
+	while (*n != '\0' && *e != '\0' && *n == *e)
 	{
-		if (*s1 > *s2)
-			return (1);
-		else if (*s1 < *s2)
-			return (-1);
-
-		s1++;
-		s2++;
-		x++;
-
+		n++;
+		e++;
 	}
-	if (s1[x] == '\0' && s2[x] != '\0')
-		return (-1);
-	
-	else if (s2[x] == '\0' && s1[x] != '\0')
-		return (1);
-	else
-		return (0);
+	return (*n - *e);
+
 }
