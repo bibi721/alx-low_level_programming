@@ -12,9 +12,7 @@ char *_strncat(char *dest, char *src, int n)
 
 	while (dest[x++])
 		opt++;
-
 	for (x = 0; src[x] && x < n; x++)
 		dest[opt++] = src[x];
-
 	return (dest);
 }
