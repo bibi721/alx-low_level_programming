@@ -10,7 +10,7 @@ void jack_bauer(void)
 
 	hr_max = 58;
 	hr_tens = '0';
-        
+
 	while (hr_tens < '3')
 	{
 		if (hr_tens == '2')
