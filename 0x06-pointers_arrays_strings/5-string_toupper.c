@@ -5,7 +5,7 @@
  * @s: the string
  * Return: uppercse string
  */
-char *string_toupper(char *)
+char *string_toupper(char *s)
 {
 	int i;
 
@@ -15,7 +15,6 @@ char *string_toupper(char *)
 		{
 			str[i] -= 32;
 		}
-
 	}
 
 	return (str);
