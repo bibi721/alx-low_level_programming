@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strspn - Locates a character in a string
+ * _strpbrk  - Locates a character in a string
  * @s: string input
  * @accept: set of bytes
  * Return: s and null based on condition
