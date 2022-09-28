@@ -4,7 +4,7 @@
  * @s: pointer
  * Return: recursion
  */
-int _strlen_recursion(char *s)
+int _length_recursion(char *s)
 {
 	if (!*s)
 	{
