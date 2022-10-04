@@ -29,9 +29,7 @@ int word_string(char *str)
 		int in = 0, r = 0, ptr = 0;
 
 		for (in = 0; *(str + in); in++)
-		{
 			ptr++;
-		}
 		for (in = 0; in < ptr; in++)
 		{
 			if (*(str + in) != ' ')
@@ -90,10 +88,8 @@ int word_string(char *str)
 			}
 
 			for (k = 0; k < n; k++)
-			{
-				q[m][k] = str[in++]
-			}
-
+				q[m][k] = str[in++];
+			
 			q[m][k] = '\0';
 
 		}
