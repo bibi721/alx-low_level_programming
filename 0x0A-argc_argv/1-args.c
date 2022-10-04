@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
 
 	else
 	{
-		for (count = 0; *argv; i++, argv++)
+		for (count = 0; *argv; count++, argv++)
 			;
 
 		printf("%d\n", count - 1);
