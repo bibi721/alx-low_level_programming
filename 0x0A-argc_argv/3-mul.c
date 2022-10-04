@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
 
 	}
 
-	printf("OPPS ! Error\n");
+	printf("Error\n");
 
 	return (1);
 
