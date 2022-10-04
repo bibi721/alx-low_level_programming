@@ -4,7 +4,7 @@
 /**
  * _strdup - pointer to allocated space in memory
  * @str: - copied string
- * Return: NULL or 0
+ * Return: NULL or ptr
  */
 char *_strdup(char *str)
 {
@@ -23,6 +23,7 @@ char *_strdup(char *str)
 
 	if (ptr == NULL)
 		return (NULL);
+
 	for (in = 0; str[in]; in++)
 	{
 		ptr[in] = str[in];
@@ -31,6 +32,6 @@ char *_strdup(char *str)
 
 	ptr[size] = '\0';
 
-	return (0);
+	return (ptr);
 
 }
