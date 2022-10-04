@@ -29,7 +29,9 @@ int word_string(char *str)
 		int in = 0, r = 0, ptr = 0;
 
 		for (in = 0; *(str + in); in++)
+		{
 			ptr++;
+		}
 		for (in = 0; in < ptr; in++)
 		{
 			if (*(str + in) != ' ')
