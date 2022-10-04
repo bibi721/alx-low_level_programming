@@ -46,11 +46,11 @@ int word_string(char *str)
 	}
 
 	/**
-	 * spliter - a function w/c splits a string into words
+	 * strtow - a function w/c splits a string into words
 	 * @str: split string
 	 * Return: NULL or q
 	 */
-	char **spliter(char *str)
+	char **strtow(char *str)
 	{
 		char **q;
 		int in = 0, r, m, n, k;
