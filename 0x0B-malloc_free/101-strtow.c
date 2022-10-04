@@ -13,9 +13,7 @@ int word_string(char *str)
 	{
 		ptr++;
 		in++;
-
 	}
-
 	return (ptr);
 }
 
@@ -38,13 +36,10 @@ int word_string(char *str)
 			{
 				r++;
 				in += word_string(str + in);
-
 			}
-
 		}
 
 		return (r);
-
 	}
 
 	/**
@@ -86,18 +81,11 @@ int word_string(char *str)
 
 				free(q);
 				return (NULL);
-
 			}
-
 			for (k = 0; k < n; k++)
 				q[m][k] = str[in++];
-			
 			q[m][k] = '\0';
-
 		}
-
 		q[m] = NULL;
-
 		return (q);
-
 	}
