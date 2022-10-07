@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
 	unsigned long q;
 	int in, z;
 
-	if (argc != 3)
+	if (argc != 5)
 	{
 		printf("Error\n");
 		exit(98);
